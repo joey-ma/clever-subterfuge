@@ -8,7 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 const config = {
   title: 'Joey Ma',
   tagline: 'Software Engineer',
-  url: 'https://yoyoyojoe.github.io/',
+  url: 'https://yoyoyojoe.github.io',
+  // GitHub Pages adds a trailing slash to Docusaurus URLs by default
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +18,8 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'yoyoyojoe', // Usually your GitHub org/user name.
-  projectName: 'clever-subterfuge', // Usually your repo name.
+  projectName: 'yoyoyojoe.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -61,6 +63,8 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/jam.png',
+          height: 32,
+          width: 32,
         },
         items: [
           // {

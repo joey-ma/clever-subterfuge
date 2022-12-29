@@ -9,7 +9,7 @@
 @font-face {
 font-family: "Satoshi";
 /* src: url("https://yoursite.com/css/fonts/CustomFont.eot"); */
-src: url("https://fontshare.com/assets/fonts/PassengerSans-Variable.e7fbe7bf.woff2") format("woff2"),
+src: url("https://www.kevc.xyz/_next/static/media/Satoshi-Regular.58c0b378.woff") format("woff"),
 /* url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"), */
 /* url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg"); */
 }
@@ -37,4 +37,8 @@ src: url("https://fontshare.com/assets/fonts/PassengerSans-Variable.e7fbe7bf.wof
   --ifm-color-primary-lighter: #BECEFE;
   --ifm-color-primary-lightest: #D3E1FF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

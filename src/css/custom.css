@@ -9,7 +9,7 @@
 @font-face {
 font-family: "Satoshi";
 /* src: url("https://yoursite.com/css/fonts/CustomFont.eot"); */
-src: url("https://fontshare.com/assets/fonts/PassengerSans-Variable.e7fbe7bf.woff2") format("woff"),
+src: url("https://fontshare.com/assets/fonts/PassengerSans-Variable.e7fbe7bf.woff2") format("woff2"),
 /* url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"), */
 /* url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg"); */
 }

@@ -2,22 +2,22 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Joey Ma',
-  tagline: 'Software Engineer currently in Brea, CA',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Software Engineer',
+  url: 'https://yoyoyojoe.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/jam.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'yoyoyojoe', // Usually your GitHub org/user name.
+  projectName: 'clever-subterfuge', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/yoyoyojoe/clever-subterfuge/',
         },
         blog: {
           showReadingTime: true,
@@ -60,18 +60,25 @@ const config = {
         title: 'Clever Subterfuge',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/jam.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'About',
+          // },
+          {to: '/about', label: 'About', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'doc',
+            docId: 'about',
+            label: 'Docs',
+            position: 'left'
+          },
+          {
+            href: 'https://github.com/yoyoyojoe/clever-subterfuge',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,11 +88,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Connect',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'GitHub',
+                href: 'https://github.com/yoyoyojoe',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://linkedin.com/in/joeyma',
               },
             ],
           },
@@ -93,16 +104,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'CodesmithX (CSX) Slack',
+                href: 'https://codesmithx.slack.com/join/shared_invite/zt-1l0ofirua-S57oCIKkC~IvYL0i1tUFfg#/shared-invite/email',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Hack for LA',
+                href: 'https://www.hackforla.org/join',
               },
             ],
           },
@@ -114,13 +121,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/users/16330123/yoyoyojoe',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Joey Ma. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

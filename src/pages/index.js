@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/about">
             Get to know me in 5min ⏱️
           </Link>
         </div>
@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Be kind`}
+      description="Welcome to Joey Ma's website!">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

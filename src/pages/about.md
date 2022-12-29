@@ -1,35 +1,29 @@
 ---
 title: About
 description: Learn more about me
-hide_table_of_contents: false
+hide_table_of_contents: true
 ---
 
 # About
 
-I'm a software engineer who _loves_ building applications, solving problems, and making a positive impact in the world _(and the world wide web)_. I believe software engineering opens doors, and hope this website will do the same.
+Currently building backend database infrastructure at [Hack for LA](https://www.hackforla.org/). Previously optimized developer experience at [Recoilize](https://www.recoilize.io/).
 
-## Software Engineer
+<!-- Love building applications, solving problems, and making the world a better place. -->
 
-Some technology I frequently use include:
-- Front End:
-  - React
-- Back End: 
-  - Node
-  - Express
-- Database:
-  - Relational: 
-    - PostgreSQL
-  - Non-relational: 
-    - MongoDB
+<!-- ## Software Engineer -->
 
-In addition, I believe in lifelong learning and am always picking up something new.
+<!-- React, Node, Express, PostgreSQL, and MongoDB.  -->
+
+Passionate about learning new technologies, solving complex problems, and actively contributing to open-source tools.
+
+<!-- In addition, I believe in lifelong learning and am always picking up something new. -->
 
 Find my **resume** **[here](../../static/pdf/joeyma_resume_2022.pdf)**.
 
-### Contributions
+<!-- ### Contributions
 
-- [Recoilize](https://www.recoilize.io/)
 - [Hack for LA](https://www.hackforla.org/)
+- [Recoilize](https://www.recoilize.io/) -->
 
 <!-- ## Personal
 

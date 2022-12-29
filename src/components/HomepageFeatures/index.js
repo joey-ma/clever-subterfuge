@@ -8,7 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        If you like what you see here, I am open to employment opportunities.
+        If you like what you see here, I am open to employment opportunities.<br />
+        Also #opentogigs <br />
       </>
     ),
   },
@@ -26,8 +27,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Need work on your web app? <br />
-        I'll be happy to take a look
+        If opportunity doesn’t knock, build a door. <br />
+        - <em>Milton Berle</em>
       </>
     ),
   },

@@ -8,8 +8,7 @@
 
 @font-face {
 font-family: "Satoshi";
-/* src: url("https://yoursite.com/css/fonts/CustomFont.eot"); */
-src: url("https://www.kevc.xyz/_next/static/media/Satoshi-Regular.58c0b378.woff") format("woff"),
+src: url("https://www.kevc.xyz/_next/static/media/Satoshi-Regular.58c0b378.woff") format(woff);
 /* url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"), */
 /* url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg"); */
 }
@@ -24,7 +23,7 @@ src: url("https://www.kevc.xyz/_next/static/media/Satoshi-Regular.58c0b378.woff"
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-family-base: Satoshi, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --ifm-font-family-base: Satoshi, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

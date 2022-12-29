@@ -28,10 +28,10 @@ Find my **resume** **[here](../../static/pdf/joeyma_resume_2022.pdf)**.
 
 ### Contributions
 
-- Recoilize
-- Hack for LA
+- [Recoilize](https://www.recoilize.io/)
+- [Hack for LA](https://www.hackforla.org/)
 
-## Personal
+<!-- ## Personal
 
 ### Background
 
@@ -43,9 +43,9 @@ Having attended UC San Diego and studied **ICAM** (Interdisciplinary Computing &
 
 > Everything has its beauty, but not everyone sees it.
 
-– _Andy Warhol_
+– _Andy Warhol_ -->
 
-### Certifications
+<!-- ### Certifications
 
 > You can do anything you set your mind to.
 
@@ -57,9 +57,9 @@ Before I decided to pursue software engineering, I have obtained a few certifica
 
 CA Real Estate Salesperson ([2021-2025](https://www2.dre.ca.gov/PublicASP/pplinfo.asp?License_id=02135288))  
 FINRA SIE, Series 6, Series 63 (2016 - 2021)  
-Life-Only Insurance Agent (2016 - 2022)  
+Life-Only Insurance Agent (2016 - 2022)   -->
 
-### Favorite Quotes
+<!-- ### Favorite Quotes
 
 > There is, however, hope for any person who wants to remain an individual. He can assert himself and refuse to conform. He'll be on his own, that's true, but while he will not have the security enjoyed by those who do conform, there will be no limits to what he may achieve.
 
@@ -69,7 +69,7 @@ Life-Only Insurance Agent (2016 - 2022)
 
 > No man chooses evil because it is evil; he only mistakes it for happiness, the good he seeks.
 
-― _Mary Shelley_  
+― _Mary Shelley_   -->
 
 <!-- ### Interests -->
 

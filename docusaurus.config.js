@@ -76,7 +76,7 @@ const config = {
             position: 'left'
           },
           {
-            to: '/catch',
+            to: 'https://github.com/yoyoyojoe/catch',
             docId: 'catch',
             label: 'Catch',
             position: 'left',

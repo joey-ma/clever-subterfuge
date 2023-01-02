@@ -40,6 +40,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/yoyoyojoe/clever-subterfuge/tree/main/',
+          exclude: [ '**/README.md**' ]
         },
         blog: {
           showReadingTime: true,

@@ -39,14 +39,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/yoyoyojoe/clever-subterfuge/tree/main/docs',
+            'https://github.com/yoyoyojoe/clever-subterfuge/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/yoyoyojoe/clever-subterfuge/tree/main/blog',
+            'https://github.com/yoyoyojoe/clever-subterfuge/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,12 +67,6 @@ const config = {
           width: 32,
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'About',
-          // },
           {to: '/about', label: 'About', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -80,6 +74,12 @@ const config = {
             docId: 'about',
             label: 'Docs',
             position: 'left'
+          },
+          {
+            to: '/catch',
+            docId: 'catch',
+            label: 'Catch',
+            position: 'left',
           },
           {
             href: 'https://github.com/yoyoyojoe/clever-subterfuge',

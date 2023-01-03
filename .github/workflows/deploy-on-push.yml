@@ -1,8 +1,9 @@
 name: Deploy new build on git push
-run-name: ${{ github.actor }} performed `git push`. GHA logging. 🚀
-on: [push]
+run-name: ${{ github.actor }} performed `git push`. Creating README.md. 🚀
+on:
+  page_build
 jobs:
-  Explore-GitHub-Actions:
+  create-readme: # not working yet, but will explore later
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
